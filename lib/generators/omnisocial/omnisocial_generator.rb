@@ -35,7 +35,7 @@ module Omnisocial
       end
 
       def copy_assets
-        copy_file 'assets/stylesheets/omnisocial.css',  'public/stylesheets/omnisocial.css'
+        copy_file 'assets/stylesheets/omnisocial.css',  'app/assets/stylesheets/omnisocial.css'
       end
 
       def show_readme
